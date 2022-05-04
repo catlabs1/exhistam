@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="js/scriptcard.js"></script>
+	<title>Карточки</title>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="flex-container">
+			<a class="link-btn link-test btn-back" href="index.html">Назад</a>
+			<span><h1>Карточки</h1><h3>(все темы)</h3></span>
+		</div>
+        <div class="card">
+            <script>
+                start();
+            </script>
+        </div>
+		<div class="buttons-grid">
+			<form class="result-form" name=test>
+				<input class="result-form-text" type=text value='' name='ans' readonly>
+			</form>
+		
+			<a class="link-btn light-btn link-test" onclick="newcard()">Новая</a>
+			<a class="link-btn link-test cta" onclick="proof()">Проверить</a>
+			
+		</div>
+	</div>
+</body>
+</html>
