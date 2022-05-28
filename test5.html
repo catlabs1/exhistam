@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.min.css">
+	<script src="js/script5.js"></script>
+	<title>Тема 5</title>
+</head>
+<body>
+	<div class="flex-container">
+		<a class="link-btn link-test btn-back" href="index.html">Назад</a>
+		<span><h1>Тест по истории</h1><h3>(тема 5)</h3></span>
+	</div>
+	<script>
+		start();
+	</script>
+	<div class="buttons-grid">
+		<form class="result-form" name=test>
+			<input class="result-form-text" type=text value='' name='ans' readonly>
+		</form>
+		<a class="link-btn light-btn link-test" href="test4.html">Ещё раз</a>
+		<a class="link-btn link-test cta" onclick="document.test.ans.value=proof()">Проверить</a>
+	</div>
+</body>
+</html>
