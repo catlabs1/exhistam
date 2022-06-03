@@ -56,7 +56,7 @@ function start() {
 		else {
 			baza.push(i)
 		}
-		s+='<li><b><span id=o'+i+'>' + questions[i] + '</b></span><br><form class="form"' + ' name=q'+i+'>'+'<p>';
+		s+='<li><b><span id=o'+i+'>' + questions[i] + (parseInt(answerz[i])+1) + '</b></span><br><form class="form"' + ' name=q'+i+'>'+'<p>';
 		for (k=0; k<answers[i].length; k++) 
 		{
 			s+='<input type="radio" name="n'+i+'"> ' + '<span name="v'+i+'"> ' + answers[i][k] + '</span><br>';
