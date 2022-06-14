@@ -92,5 +92,5 @@ function proof() {
 				elem.style.color = "#00CC00";
 			}
 		}
-		return (z*2.5) + ' ' + 'баллов' + ' ' + '|' + ' ' + ((z/20)*100).toFixed(2) + '%';
+		return (z*2) + ' ' + 'баллов' + ' ' + '|' + ' ' + ((z/20)*100).toFixed(2) + '%';
 	}
